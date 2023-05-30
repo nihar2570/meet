@@ -23,7 +23,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+        </div>
+        <div class="row pt-2">
+            <div class="col d-flex justify-content-start">
+                <button type="button" class="btn btn-outline-primary me-2">
+                    Filter Item <span class="badge text-bg-light">X</span>
+                </button>
+                <button type="button" class="btn btn-outline-primary me-2">
+                    Filter Item <span class="badge text-bg-light">X</span>
+                </button>
+                <button type="button" class="btn btn-outline-primary me-2">
+                    Filter Item <span class="badge text-bg-light">X</span>
+                </button>
+            </div>
+            <div class="col d-flex justify-content-end">
                 <button type="button" class="disabled btn-outline-light btn text-dark me-2 font-monospace">Sort by:</button>
                 <button type="button" class="btn btn-light me-2 shadow-sm">+</button>
                 <button type="button" class="btn btn-light shadow-sm">-</button>
