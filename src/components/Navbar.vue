@@ -1,12 +1,12 @@
 <template>
     <nav class="navbar bg-primary" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <router-link to="/" class="navbar-brand" href="#">
           Meet
-        </a>
-        <span class="text-white h6">
+        </router-link>
+        <router-link to="/profile" class="text-white h6">
             Profile
-        </span>
+        </router-link>
       </div>
     </nav>
 </template>
