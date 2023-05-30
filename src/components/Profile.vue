@@ -1,20 +1,17 @@
 <template>
     <div class="container">
-        <p class="h5 pt-5 text-center">Applicant Information</p>
-        
-        <hr class="border border-info border-1 opacity-25">
-        <div class="row justify-content-center sticky-top">
+        <div class="row pt-4 pb-2 justify-content-center sticky-top">
             <div class="col-8 text-center font-monospace">
                 <div id="list-example" class="list-group list-group-horizontal shadow-sm">
-                <a class="list-group-item list-group-item-action" href="#i1">Personal</a>
-                <a class="list-group-item list-group-item-action" href="#i2">Professional</a>
-                <a class="list-group-item list-group-item-action" href="#i3">Family </a>
+                <a class="list-group-item list-group-item-action" href="#i1">Personal Info</a>
+                <a class="list-group-item list-group-item-action" href="#i2">Professional Info</a>
+                <a class="list-group-item list-group-item-action" href="#i3">Family Info</a>
                 </div>
             </div>
         </div>
         <hr class="border border-info border-1 opacity-25">
         
-        <p class="h5 pt-3 text-center">John Mencken</p>
+        <p class="h5 pt-3 text-center">Daniel Wheatley</p>
         <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example">
             <div class="row p-4 ">
                 <div class="col">
@@ -30,9 +27,10 @@
                     <img src="../../src/assets/4.webp" class="img-fluid" alt="...">
                 </div>
             </div>
-            
-        <p id="i1" class="h6 m-4 text-center">Personal Information</p>
-        <div class="row">
+        <hr class="border border-info border-1 opacity-25">
+        
+        <p id="i1" class="h5 m-4 text-center">Personal Information</p>
+        <div class="row  font-monospace">
             <div class="col-2"></div>
             <div class="col">
                 <table class="table">
@@ -92,8 +90,8 @@
             </div>
             <div class="col-2"></div>
         </div>
-        <p id="i2" class="h6 m-4 text-center">Professional Information</p>
-        <div class="row">
+        <p id="i2" class="h5 m-4 text-center">Professional Information</p>
+        <div class="row  font-monospace">
             <div class="col-2"></div>
             <div class="col">
                 <table class="table">
@@ -106,51 +104,51 @@
                     <tbody>
                         <tr>
                             <td class="fw-semibold p-3">High-School</td>
-                            <td class="fw-normal p-3">Margot Foster</td>
+                            <td class="fw-normal p-3">Random High School</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Undergrad</td>
-                            <td class="fw-normal p-3">Margot Foster</td>
+                            <td class="fw-normal p-3">Random College info</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Post-graduation</td>
-                            <td class="fw-normal p-3">+91 7898556643</td>
+                            <td class="fw-normal p-3">Random Masters degree</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Occupation</td>
-                            <td class="fw-normal p-3">Margotfoster@gmailcom</td>
+                            <td class="fw-normal p-3">Job</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Company Name</td>
-                            <td class="fw-normal p-3">23 May 1995</td>
+                            <td class="fw-normal p-3">Oracle Systems</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Salary</td>
-                            <td class="fw-normal p-3">4:30pm</td>
+                            <td class="fw-normal p-3">$ 240,000 </td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Company Role</td>
-                            <td class="fw-semibld p-3">Hyderabad, India</td>
+                            <td class="fw-semibld p-3">Software Engineer Level-3</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Company Location</td>
-                            <td class="fw-normal p-3">gothram</td>
+                            <td class="fw-normal p-3">Los Angeles, California</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Residential Status</td>
-                            <td class="fw-normal p-3">starname</td>
+                            <td class="fw-normal p-3">U.S Citizen</td>
                         </tr>
                         <tr>
                             <td class="fw-semibold p-3">Visa Status</td>
-                            <td class="fw-normal p-3">Aquarius</td>
+                            <td class="fw-normal p-3">Citizenship</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="col-2"></div>
         </div>
-        <p id="i3" class="h6 m-4 text-center">Family Information</p>
-        <div class="row">
+        <p id="i3" class="h4 m-4 text-center">Family Information</p>
+        <div class="row  font-monospace">
             <div class="col-2"></div>
             <div class="col">
                 <table class="table">
