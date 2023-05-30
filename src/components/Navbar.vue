@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar bg-primary" data-bs-theme="dark">
+    <nav class="navbar bg-primary shadow-sm" data-bs-theme="dark">
       <div class="container">
         <router-link to="/" class="navbar-brand h6" href="#">
           Meet
