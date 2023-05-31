@@ -1,180 +1,126 @@
 <template>
     <div class="container">
-        <div class="row pt-4 pb-2 justify-content-center sticky-top">
-            <div class="col-8 text-center font-monospace">
-                <div id="list-example" class="list-group list-group-horizontal shadow-sm">
-                <a class="list-group-item list-group-item-action" href="#i1">Personal Info</a>
-                <a class="list-group-item list-group-item-action" href="#i2">Professional Info</a>
-                <a class="list-group-item list-group-item-action" href="#i3">Family Info</a>
-                </div>
+        
+        <!-- images div -->
+        <hr class="border border-info border-1 opacity-25">   
+        <p class="h5 text-center">Daniel Wheatley</p>
+        <hr class="border border-info border-1 opacity-25">   
+        <div class="row p-4 ">
+            <div class="col">
+                <img src="../../src/assets/1.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col">
+                <img src="../../src/assets/2.webp" class="img-fluid" alt="...">
+            </div>
+            <div class="col">
+                <img src="../../src/assets/3.webp" class="img-fluid" alt="...">
+            </div>
+            <div class="col">
+                <img src="../../src/assets/4.webp" class="img-fluid" alt="...">
             </div>
         </div>
-        <hr class="border border-info border-1 opacity-25">
-        
-        <p class="h5 pt-3 text-center">Daniel Wheatley</p>
-        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example">
-            <div class="row p-4 ">
-                <div class="col">
-                    <img src="../../src/assets/1.jpg" class="img-fluid" alt="...">
-                </div>
-                <div class="col">
-                    <img src="../../src/assets/2.webp" class="img-fluid" alt="...">
-                </div>
-                <div class="col">
-                    <img src="../../src/assets/3.webp" class="img-fluid" alt="...">
-                </div>
-                <div class="col">
-                    <img src="../../src/assets/4.webp" class="img-fluid" alt="...">
+
+        <!-- personal info -->
+        <hr class="mt-4 border border-info border-1 opacity-25">   
+        <p id="i1" class="h5 m-4 text-center">Personal Information</p>
+        <hr class="border border-info border-1 opacity-25">   
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card border-light shadow-sm">
+                <div class="card-body">
+                    <dl class="row font-monospace">
+                        <dt class="col-sm-4">Full Name:</dt>
+                        <dd class="col-sm-7">Daniel H. Wheatly</dd>
+                        <dt class="col-sm-4">Phone Number:</dt>
+                        <dd class="col-sm-8">+91 9848776655</dd>
+                        <dt class="col-sm-4">Email ID:</dt>
+                        <dd class="col-sm-8">daniel.wheatley@gmail.com</dd>            
+                        <dt class="col-sm-4">Date of Birth:</dt>
+                        <dd class="col-sm-8">23 May 1995</dd>
+                        <dt class="col-sm-4">Time of Birth:</dt>
+                        <dd class="col-sm-8">4:30pm</dd>
+                        <dt class="col-sm-4">Place of Birth:</dt>
+                        <dd class="col-sm-8">Hyderabad, India</dd>
+                        <dt class="col-sm-4">Gothram:</dt>
+                        <dd class="col-sm-8">gothram</dd>
+                        <dt class="col-sm-4">Birth Star:</dt>
+                        <dd class="col-sm-8">starname</dd>
+                        <dt class="col-sm-4">Zodiac Sign:</dt>
+                        <dd class="col-sm-8">Aquarius</dd>
+                        <dt class="col-sm-4">Complexion:</dt>
+                        <dd class="col-sm-8">Fair</dd>
+                        <dt class="col-sm-4">Height:</dt>
+                        <dd class="col-sm-8">5 feet 9 inches</dd>
+                        <dt class="col-sm-4">Weight:</dt>
+                        <dd class="col-sm-8">75 kgs</dd>
+                    </dl>
                 </div>
             </div>
-        </div>    
-        <hr class="border border-info border-1 opacity-25">
-        
-        <p id="i1" class="h5 m-4 text-center">Personal Information</p>
-        <table class="table table-striped table-hover mx-auto w-auto">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col" class="w-75"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="fw-semibold p-3">Full Name:</td>
-                    <td class="fw-normal p-3">Margot Foster</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Phone Number:</td>
-                    <td class="fw-normal p-3">+91 7898556643</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Email ID:</td>
-                    <td class="fw-normal p-3">Margotfoster@gmailcom</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Date of Birth</td>
-                    <td class="fw-normal p-3">23 May 1995</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Time of Birth</td>
-                    <td class="fw-normal p-3">4:30pm</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Place of Birth</td>
-                    <td class="fw-semibld p-3">Hyderabad, India</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Gothram</td>
-                    <td class="fw-normal p-3">gothram</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Birth Star</td>
-                    <td class="fw-normal p-3">starname</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Rasi/Zodiac Sign</td>
-                    <td class="fw-normal p-3">Aquarius</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Complexion:</td>
-                    <td class="fw-normal p-3">Fair</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Height:</td>
-                    <td class="fw-normal p-3">5 feet 9 inches</td>
-                </tr>
-            </tbody>
-        </table>
+            </div>
+        </div>
+
+        <!-- professional info -->
+        <hr class="mt-5 border border-info border-1 opacity-25">   
         <p id="i2" class="h5 m-4 text-center">Professional Information</p>
-        <table class="table  table-striped table-hover mx-auto w-auto">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col" class="w-75"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="fw-semibold p-3">High-School</td>
-                    <td class="fw-normal p-3">Random High School</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Undergrad</td>
-                    <td class="fw-normal p-3">Random College info</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Post-graduation</td>
-                    <td class="fw-normal p-3">Random Masters degree</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Occupation</td>
-                    <td class="fw-normal p-3">Job</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Company Name</td>
-                    <td class="fw-normal p-3">Oracle Systems</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Salary</td>
-                    <td class="fw-normal p-3">$ 240,000 </td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Company Role</td>
-                    <td class="fw-semibld p-3">Software Engineer Level-3</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Company Location</td>
-                    <td class="fw-normal p-3">Los Angeles, California</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Residential Status</td>
-                    <td class="fw-normal p-3">U.S Citizen</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Visa Status</td>
-                    <td class="fw-normal p-3">Citizenship</td>
-                </tr>
-            </tbody>
-        </table>
+        <hr class="border border-info border-1 opacity-25">   
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card border-light shadow-sm" >
+                <div class="card-body">
+                    <dl class="row font-monospace">
+                        <dt class="col-sm-4">High-School:</dt>
+                        <dd class="col-sm-8">ABC Elementary High</dd>
+                        <dt class="col-sm-4">Undergrad:</dt>
+                        <dd class="col-sm-8">CBIT Hyderabad (CSE)</dd>
+                        <dt class="col-sm-4">Post-graduation:</dt>
+                        <dd class="col-sm-8">Univeristy of California, LA</dd>            
+                        <dt class="col-sm-4">Profession:</dt>
+                        <dd class="col-sm-8">Software Employee</dd>
+                        <dt class="col-sm-4">Company:</dt>
+                        <dd class="col-sm-8">Oracle Systems</dd>
+                        <dt class="col-sm-4">Company Role:</dt>
+                        <dd class="col-sm-8">level-3 Sr.software Developer</dd>
+                        <dt class="col-sm-4">Salary:</dt>
+                        <dd class="col-sm-8">$240,000</dd>
+                        <dt class="col-sm-4">Company Location:</dt>
+                        <dd class="col-sm-8">Los Angeles, California</dd>
+                        <dt class="col-sm-4">Residential Status:</dt>
+                        <dd class="col-sm-8">U.S Citizen</dd>
+                    </dl>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- family info -->
+        <hr class="mt-5 border border-info border-1 opacity-25">   
         <p id="i3" class="h5 m-4 text-center">Family Information</p>
-        <table class="table  table-striped table-hover mx-auto w-auto">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col" class="w-75"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="fw-semibold p-3">Father Name</td>
-                    <td class="fw-normal p-3">Margot Foster</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Father Occupation</td>
-                    <td class="fw-normal p-3">Margot Foster</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Mother Name</td>
-                    <td class="fw-normal p-3">+91 7898556643</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Mother Occupation</td>
-                    <td class="fw-normal p-3">Margotfoster@gmailcom</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Siblings</td>
-                    <td class="fw-normal p-3">23 May 1995</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Net worth(INR)</td>
-                    <td class="fw-normal p-3">4:30pm</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold p-3">Parents Address</td>
-                    <td class="fw-semibld p-3">Hyderabad, India</td>
-                </tr>
-            </tbody>
-        </table>
+        <hr class="border border-info border-1 opacity-25">   
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="card border-light shadow-sm" >
+                <div class="card-body">
+                    <dl class="row font-monospace">
+                        <dt class="col-sm-4">Father Name:</dt>
+                        <dd class="col-sm-8">Mark Foster</dd>
+                        <dt class="col-sm-4">Father Occupation:</dt>
+                        <dd class="col-sm-8">Goverment Employee</dd>
+                        <dt class="col-sm-4">Mother Name:</dt>
+                        <dd class="col-sm-8">Michelle Foster</dd>            
+                        <dt class="col-sm-4">Mother Occupation:</dt>
+                        <dd class="col-sm-8">Housewife</dd>
+                        <dt class="col-sm-4">Siblings:</dt>
+                        <dd class="col-sm-8">1 brother</dd>
+                        <dt class="col-sm-4">Parents address:</dt>
+                        <dd class="col-sm-8">Hyderabad, india</dd>
+                        <dt class="col-sm-4">net-worth($)</dt>
+                        <dd class="col-sm-8">5 Million</dd>
+                    </dl>
+                </div>
+            </div>
+            </div>
+        </div>
+        
         <div class="row m-5"></div>
     </div>
 </template>
